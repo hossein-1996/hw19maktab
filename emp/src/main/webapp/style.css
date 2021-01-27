@@ -1,0 +1,9 @@
+table{
+    border: 5px black solid;
+}
+td{
+    border: 3px cornflowerblue solid;
+}
+th{
+    border: 5px blueviolet solid;
+}

@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    /*background-image: url("E:\New folder (5)\sutdentForm\assets\Media\img\background.jpg");*/
+    /*background-size: 1920px * 1080px;*/
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 420px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+h1{
+    
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.container input{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.container input[type="text"],input[type="password"]{
+    border: none;
+    background: #00000080;
+    text-align: inherit;
+    height: 40px;
+    color: rgb(243, 240, 240);
+}
+.container input[type="submit"]{
+    border: none;
+    height: 40px;
+    background-color: hsl(283, 89%, 43%);
+    color: #fff;
+    font-size: 18px;
+}
+.container input[type="submit"]:hover{
+    background: hsl(284, 99%, 34%);
+    
+}
+.check{
+    
+    color: rgb(238, 222, 222);
+    text-align: center;
+}
+.check a{
+    
+    color: rgb(75, 62, 62);
+    font-size: 14px;
+} 
+  
